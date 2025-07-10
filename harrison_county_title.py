@@ -10,10 +10,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # CONFIGURATION (put your real tokens here)
-# apify_api_token = os.getenv("APIFY_API_TOKEN")  # <-- Get this from https://console.apify.com/account/integrations
-# smithery_api_key = os.getenv("SMITHERY_API_KEY")  # <-- From https://smithery.ai/dashboard
-apify_api_token = "apify_api_OA85jKjQYRgqECmigK1UOFeNvHM1fU0gsbKj"
-smithery_api_key = "6876688a-8eeb-4960-af19-306c7058d152"
+apify_api_token = os.getenv("APIFY_API_TOKEN")  # <-- Get this from https://console.apify.com/account/integrations
+smithery_api_key = os.getenv("SMITHERY_API_KEY")  # <-- From https://smithery.ai/dashboard
 config = {
   "apifyApiToken": apify_api_token
 }
